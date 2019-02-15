@@ -78,7 +78,7 @@ class App extends Component {
 
   promessa(){
     this.setState({
-      mensagem: 'Entrega teu caminho ao Senhor, confia Nele e Ele tudo Fará.'
+      mensagem: 'Entrega teu caminho ao Senhor, confia Nele e Ele tudo Fará. Sl 37:5'
     });
   }  
 
