@@ -86,7 +86,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="titulo">
-          <h1>Mensagens de Deus.</h1>
+          <h1>Frases de Deus.</h1>
         </div>
         <div className="mensagem">
           <h1>{this.state.mensagem}</h1>        
