@@ -44,13 +44,7 @@ class App extends Component {
     this.setState({
       mensagem: 'Confia no Senhor de todo o seu coração. Pv 3:5'
     });
-  }
-
-  pecado(){
-    this.setState({
-      mensagem: 'Porque todos pecaram e destituídos estão da glória de Deus. Rm 3:23'
-    });
-  }
+  }  
 
   angustia(){
     this.setState({
@@ -86,7 +80,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="titulo">
-          <h1>Frases de Deus.</h1>
+          <h3>A solução para todos os seus problemas é confiar em Deus de todo o seu coração.</h3>
         </div>
         <div className="mensagem">
           <h1>{this.state.mensagem}</h1>        
@@ -97,8 +91,7 @@ class App extends Component {
           <Button variant="secondary" className="bt_normal" onClick={() => this.fe()}>Fé</Button>         
           <Button variant="secondary" className="bt_normal" onClick={() => this.gratidao()}>Gratidão</Button>
           <Button variant="secondary" className="bt_normal" onClick={() => this.tristeza()}>Tristeza</Button>
-          <Button variant="secondary" className="bt_normal" onClick={() => this.seguranca()}>Segurança</Button>         
-          <Button variant="secondary" className="bt_normal" onClick={() => this.pecado()}>Pecado</Button>
+          <Button variant="secondary" className="bt_normal" onClick={() => this.seguranca()}>Segurança</Button>          
           <Button variant="secondary" className="bt_normal" onClick={() => this.angustia()}>Angustia</Button>
           <Button variant="secondary" className="bt_normal" onClick={() => this.salvacao()}>Salvação</Button>       
           <Button variant="secondary" className="bt_normal" onClick={() => this.alegria()}>Alegria</Button>

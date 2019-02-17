@@ -4,11 +4,14 @@
 
 .titulo {  
   margin-top: 20px;
-  margin-bottom: 30px;  
+  margin-bottom: 30px;
+  color: #6e747c
+  
 }
 
-.mensagem {
+.mensagem {     
   margin: 30px;
+  color: #9f2136;
 }
 
 .bt_normal {
